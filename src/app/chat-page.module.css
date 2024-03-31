@@ -1,0 +1,9 @@
+.chat-main-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: calc(
+    100vh - 100px - 50px - 100px
+  ); /* ヘッダーの高さとフッターの高さ、入力エリアの高さを引く */
+  overflow-y: auto;
+  padding-bottom: 60px; /* 入力エリアの高さ+少し余裕を持たせる */
+}
